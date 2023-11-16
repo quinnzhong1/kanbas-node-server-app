@@ -8,7 +8,7 @@ function CourseRoutes(app) {
           res.status(404).send("Course not found");
           return;
         }
-        res.send(course);
+        res.json(course);
       });
     
 

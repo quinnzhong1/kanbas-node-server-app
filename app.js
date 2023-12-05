@@ -14,11 +14,11 @@ mongoose.connect(CONNECTION_STRING);
 
 
 const app = express()
-app.use(cors());
+// app.use(cors());
 app.use(
     cors({
       credentials: true,
-      origin: 'https://a6--vocal-cucurucho-0cbaf0.netlify.app/'
+      origin: 'https://a6--vocal-cucurucho-0cbaf0.netlify.app'
     })
   );  
 
